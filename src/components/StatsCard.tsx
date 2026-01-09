@@ -11,7 +11,7 @@ const StatsCard: React.FC<StatsCardProps> = ({ title, value, change, description
   const isPositive = change.startsWith("+");
 
   return (
-    <div className="bg-white shadow-md rounded-lg p-6 flex flex-col justify-between">
+    <div className="bg-white justify-between">
       <div className="text-sm font-medium text-gray-500">{title}</div>
       <div className="text-2xl font-bold mt-2">{value}</div>
       <div
